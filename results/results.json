@@ -1,0 +1,159 @@
+{
+ "n_items": 200,
+ "A": {
+  "transforms": {
+   "rename": {
+    "n": 195,
+    "flip_rate": 0.3282051282051282,
+    "dp_correct": -0.30582822348544597,
+    "dp_wrong": -0.2377866579120633,
+    "false_accept_before": 0.5178571428571429,
+    "false_accept_after": 0.25,
+    "n_wrong": 56
+   },
+   "reformat": {
+    "n": 128,
+    "flip_rate": 0.0546875,
+    "dp_correct": -0.004734343076327073,
+    "dp_wrong": -0.023528680416014035,
+    "false_accept_before": 0.4594594594594595,
+    "false_accept_after": 0.4594594594594595,
+    "n_wrong": 37
+   },
+   "claim_tested": {
+    "n": 199,
+    "flip_rate": 0.08040201005025126,
+    "dp_correct": 0.06396530198958761,
+    "dp_wrong": 0.0770306577187263,
+    "false_accept_before": 0.4915254237288136,
+    "false_accept_after": 0.559322033898305,
+    "n_wrong": 59
+   },
+   "claim_doubt": {
+    "n": 199,
+    "flip_rate": 0.21105527638190955,
+    "dp_correct": -0.20991058784615807,
+    "dp_wrong": -0.22298265734635114,
+    "false_accept_before": 0.4915254237288136,
+    "false_accept_after": 0.2542372881355932,
+    "n_wrong": 59
+   }
+  },
+  "routing": {
+   "random_sample": {
+    "n": 100,
+    "errors": 26,
+    "base_error_rate": 0.26,
+    "auroc_uncertainty": 0.6234407484407485,
+    "auroc_flip": 0.4981808731808732,
+    "auroc_spread": 0.5862785862785863,
+    "auroc_combined": 0.5751039501039501,
+    "caught20_unc": 0.38461538461538464,
+    "caught20_comb": 0.23076923076923078,
+    "false_accept_share": 0.3076923076923077
+   },
+   "top_pick_A": {
+    "n": 100,
+    "errors": 27,
+    "base_error_rate": 0.27,
+    "auroc_uncertainty": 0.6719939117199392,
+    "auroc_flip": 0.5362760020294267,
+    "auroc_spread": 0.5925925925925926,
+    "auroc_combined": 0.6164383561643836,
+    "caught20_unc": 0.37037037037037035,
+    "caught20_comb": 0.2962962962962963,
+    "false_accept_share": 0.7777777777777778
+   },
+   "all": {
+    "n": 200,
+    "errors": 53,
+    "base_error_rate": 0.265,
+    "auroc_uncertainty": 0.6324605313823642,
+    "auroc_flip": 0.5169426261070466,
+    "auroc_spread": 0.5832370684122705,
+    "auroc_combined": 0.5903606725709152,
+    "caught20_unc": 0.37735849056603776,
+    "caught20_comb": 0.2641509433962264,
+    "false_accept_share": 0.5471698113207547
+   }
+  }
+ },
+ "B": {
+  "transforms": {
+   "rename": {
+    "n": 195,
+    "flip_rate": 0.37435897435897436,
+    "dp_correct": -0.3105802231319044,
+    "dp_wrong": -0.22436458727953337,
+    "false_accept_before": 0.7857142857142857,
+    "false_accept_after": 0.4642857142857143,
+    "n_wrong": 56
+   },
+   "reformat": {
+    "n": 128,
+    "flip_rate": 0.0625,
+    "dp_correct": -0.014773509280350842,
+    "dp_wrong": -0.022944811222730163,
+    "false_accept_before": 0.7567567567567568,
+    "false_accept_after": 0.7567567567567568,
+    "n_wrong": 37
+   },
+   "claim_tested": {
+    "n": 199,
+    "flip_rate": 0.08040201005025126,
+    "dp_correct": 0.10090403899423549,
+    "dp_wrong": 0.11468642493436151,
+    "false_accept_before": 0.7627118644067796,
+    "false_accept_after": 0.847457627118644,
+    "n_wrong": 59
+   },
+   "claim_doubt": {
+    "n": 199,
+    "flip_rate": 0.6834170854271356,
+    "dp_correct": -0.5334238228190532,
+    "dp_wrong": -0.4637933225182494,
+    "false_accept_before": 0.7627118644067796,
+    "false_accept_after": 0.1694915254237288,
+    "n_wrong": 59
+   }
+  },
+  "routing": {
+   "random_sample": {
+    "n": 100,
+    "errors": 34,
+    "base_error_rate": 0.34,
+    "auroc_uncertainty": 0.6377005347593583,
+    "auroc_flip": 0.5164884135472371,
+    "auroc_spread": 0.5031194295900179,
+    "auroc_combined": 0.5971479500891266,
+    "caught20_unc": 0.3235294117647059,
+    "caught20_comb": 0.20588235294117646,
+    "false_accept_share": 0.6764705882352942
+   },
+   "top_pick_A": {
+    "n": 100,
+    "errors": 25,
+    "base_error_rate": 0.25,
+    "auroc_uncertainty": 0.5941333333333333,
+    "auroc_flip": 0.4421333333333333,
+    "auroc_spread": 0.41146666666666665,
+    "auroc_combined": 0.5181333333333333,
+    "caught20_unc": 0.24,
+    "caught20_comb": 0.16,
+    "false_accept_share": 0.88
+   },
+   "all": {
+    "n": 200,
+    "errors": 59,
+    "base_error_rate": 0.295,
+    "auroc_uncertainty": 0.6191248948190888,
+    "auroc_flip": 0.4814280562567616,
+    "auroc_spread": 0.4534198821973795,
+    "auroc_combined": 0.5639499939896622,
+    "caught20_unc": 0.2711864406779661,
+    "caught20_comb": 0.2033898305084746,
+    "false_accept_share": 0.7627118644067796
+   }
+  }
+ }
+}
