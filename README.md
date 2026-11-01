@@ -96,6 +96,6 @@ Companion projects with the same samples: `judge-gaming-best-of-n` and `test-sui
   author = {Muhammad Ghaus Malik},
   title  = {Metamorphic Testing of LLM Code Judges, and Routing Judge Errors After Optimization},
   year   = {2026},
-  note   = {Pilot study, code and data}
+  note   = {Code and data}
 }
 ```
